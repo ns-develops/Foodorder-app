@@ -13,7 +13,7 @@
 .cxx
 local.properties
 
-# Android Studio-specifika filer
+# Android Studio-specific files
 .gradle/
 .idea/
 build/
@@ -21,11 +21,11 @@ captures/
 .externalNativeBuild/
 .cxx/
 
-# Lokala egenskaper
+# Local
 local.properties/
 
 # Google Services
 google-services.json
 
-# Systemfiler
+# Systemfiles
 .DS_Store
