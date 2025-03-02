@@ -12,23 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FoodOrderApp"
         tools:targetApi="31">
-
-        <!-- SplashScreen - ska vara den första aktiviteten att starta -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <!-- Slashscreen first that shows -->
         <activity
             android:name=".SplashScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-
-        <!-- MainActivity - kommer att öppnas efter SplashScreen -->
+        </activity> <!-- MainActivity comes after -->
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"></activity>
     </application>
 
 </manifest>
